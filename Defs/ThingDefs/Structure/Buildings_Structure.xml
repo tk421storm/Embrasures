@@ -13,9 +13,9 @@
     <filthLeaving>BuildingRubble</filthLeaving>
   </ThingDef>
  
-  <!--========================= Walls =============================-->
+  <!--========================= Embrasures =============================-->
 
-  <ThingDef ParentName="BuildingBase" Name="Wall">
+  <ThingDef ParentName="BuildingBase">
     <defName>CCP_Embrasure</defName>
     <label>embrasure</label>
     <thingClass>Building</thingClass>
@@ -40,21 +40,22 @@
         <edgeRight>Damage/Edge</edgeRight>
       </damageData>
     </graphicData>
-    <uiIconPath>UI/Embrasure</uiIconPath>
     <blueprintGraphicData>
       <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
     </blueprintGraphicData>
+    <uiIconPath>UI/Embrasure</uiIconPath>
     <statBases>
-      <MaxHitPoints>300</MaxHitPoints>
-      <WorkToBuild>175</WorkToBuild>
+      <MaxHitPoints>350</MaxHitPoints>
+      <WorkToBuild>200</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
     <costStuffCount>7</costStuffCount>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
+    <blockWind>true</blockWind>
     <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.99</fillPercent>
+    <fillPercent>0.95</fillPercent>
     <coversFloor>true</coversFloor>
     <placingDraggableDimensions>1</placingDraggableDimensions>
     <tickerType>Never</tickerType>
@@ -66,6 +67,7 @@
     <designationCategory>Structure</designationCategory>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
     <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
     <stuffCategories>
       <li>Metallic</li>
       <li>Woody</li>
@@ -82,5 +84,5 @@
       </li>
     </damageMultipliers>
   </ThingDef>
-
+ 
 </Buildings>
