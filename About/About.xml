@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Embrasures</name>
+	<name>Matching Embrasures</name>
 	<author>cucumpear</author>
   <targetVersion>0.17.0</targetVersion>
-	<description>Embrasures for your enjoyment and protection. Originally based on skullywag's version, but at this point both textures and coding are original.</description>
+	<description>Embrasures for your enjoyment and protection. Originally based on skullywag's version, but at this point both textures and coding are original. The main difference to any other embrasures mod I've tried is that I do my best to ensure that they actually match the vanilla walls. This means that they will look like planks for any wooden materials, smooth for metals and like bricks for stone, no matter if the material is modded or vanilla.
+	As of A17 it appears that opponents will not have any more trouble shooting through than your colonists. Also embrasures might as well not exist as temperature is concerned. if two rooms share a wall that contains even a single time of embrasure you cannot place a working cooler in it. Makes sense, considering that there are literally holes in the wall, right?
+	Luckily the embrasures work just as well as normal walls for bedrooms, prisoner rooms etc.</description>
 </ModMetaData>
