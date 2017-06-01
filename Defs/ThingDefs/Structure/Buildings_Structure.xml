@@ -20,7 +20,7 @@
     <label>embrasure</label>
     <thingClass>Building</thingClass>
     <category>Building</category>
-    <description>An impassable wall. Capable of holding up a roof. Can be shot through. Even horseshoes, apparently.</description>
+    <description>An impassable wall. Capable of holding up a roof. Can be shot through from both sides.</description>
     <graphicData>
       <texPath>Things/Building/Linked/Embrasure</texPath>
       <graphicClass>Graphic_Appearances</graphicClass>
