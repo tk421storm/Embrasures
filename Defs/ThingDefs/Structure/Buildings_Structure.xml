@@ -1,26 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Buildings>
+<Defs>
 
   <ThingDef Name="BuildingBase" Abstract="True">
     <category>Building</category>
     <thingClass>Building</thingClass>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <selectable>true</selectable>
     <drawerType>MapMeshAndRealTime</drawerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <repairEffect>Repair</repairEffect>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>BuildingRubble</filthLeaving>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<statBases>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
   </ThingDef>
  
   <!--========================= Embrasures =============================-->
 
-  <ThingDef ParentName="BuildingBase">
+    <ThingDef ParentName="BuildingBase" Name="MatchingEmbrasure">
     <defName>CCP_Embrasure</defName>
     <label>embrasure</label>
+    <description>An impassable wall. Capable of holding up a roof. Can be shot through from both sides.</description>
     <thingClass>Building</thingClass>
     <category>Building</category>
-    <description>An impassable wall. Capable of holding up a roof. Can be shot through from both sides.</description>
     <graphicData>
       <texPath>Things/Building/Linked/Embrasure</texPath>
       <graphicClass>Graphic_Appearances</graphicClass>
@@ -40,13 +43,10 @@
         <edgeRight>Damage/Edge</edgeRight>
       </damageData>
     </graphicData>
-    <blueprintGraphicData>
-      <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
-    </blueprintGraphicData>
     <uiIconPath>UI/Embrasure</uiIconPath>
     <statBases>
       <MaxHitPoints>350</MaxHitPoints>
-      <WorkToBuild>200</WorkToBuild>
+      <WorkToBuild>150</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
     <costStuffCount>7</costStuffCount>
@@ -62,7 +62,7 @@
     <rotatable>false</rotatable>
     <selectable>true</selectable>
     <neverMultiSelect>true</neverMultiSelect>
-    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <holdsRoof>true</holdsRoof>
     <designationCategory>Structure</designationCategory>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
@@ -75,7 +75,9 @@
     </stuffCategories>
     <building>
       <isInert>true</isInert>
-      <ignoreNeedsPower>true</ignoreNeedsPower>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
     </building>
     <damageMultipliers>
       <li>
@@ -85,4 +87,4 @@
     </damageMultipliers>
   </ThingDef>
  
-</Buildings>
+</Defs>
