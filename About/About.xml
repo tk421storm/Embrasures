@@ -3,6 +3,7 @@
 	<name>Matching Embrasures - Forked</name>
 	<author>cucumpear</author>
 	<packageId>tks.embrasures</packageId>
+	<url>https://github.com/tk421storm/Embrasures</url>
 	<supportedVersions>
         <li>1.4</li>
         <li>1.5</li>
