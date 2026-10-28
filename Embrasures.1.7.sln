@@ -1,0 +1,19 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Embrasures.1.7", "Embrasures.1.7.csproj", "{DD0D247B-D2A6-4CE1-A8FF-F7E2A0070CB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		1.7|Any CPU = 1.7|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD0D247B-D2A6-4CE1-A8FF-F7E2A0070CB7}.1.7|Any CPU.ActiveCfg = 1.7|Any CPU
+		{DD0D247B-D2A6-4CE1-A8FF-F7E2A0070CB7}.1.7|Any CPU.Build.0 = 1.7|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

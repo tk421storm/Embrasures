@@ -8,6 +8,15 @@
         <li>1.4</li>
         <li>1.5</li>
         <li>1.6</li>
+        <li>1.7</li>
 	</supportedVersions>
-	<description>Updated cucumpear's awesome matching embrasures for 1.4+.</description>
+	<description>Updated cucumpear's awesome matching embrasures for 1.4+.\n\nFrom 1.5 on, pawns can no longer chat, insult, romance or recruit through an embrasure, and can't melee each other through one (including diagonally across an embrasure corner, which Vanilla Expanded Framework's melee reach allowed). Shooting through embrasures is unchanged.</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
 </ModMetaData>
